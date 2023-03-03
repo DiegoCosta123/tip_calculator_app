@@ -13,8 +13,8 @@
 }
 
 #squared_main {
-    width: 900px;
-    height: 435px;
+    width: 755px;
+    height: 365px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -40,11 +40,12 @@
 
 #currency_field {
     width: 200px;
+    height: 40px;
     border: 0px solid;
     border-radius: 5px;
     background-color: hsl(189, 41%, 97%);
     color: hsl(172, 67%, 45%);
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     text-align: end;
     padding-right: 10px;
@@ -52,7 +53,11 @@
 }
 
 #currency_field:hover {
-    border: 1px solid hsl(185, 41%, 84%);
+    border: 2px solid hsl(185, 41%, 84%);
+}
+
+.type_percentage {
+    margin-top: 30px;
 }
 
 .percentage_main {
@@ -60,30 +65,95 @@
 }
 
 .percentage_value {
-    width: 50px;
-    height: 30px;
+    width: 90px;
+    height: 40px;
     background-color: hsl(183, 100%, 15%);
     color: hsl(189, 41%, 97%);
     border: solid 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 .percentage_type {
-    width: 50px;
-    height: 30px;
+    width: 90px;
+    height: 44px;
+    border-radius: 5px;
     border: solid 0px;
-    background-color: aquamarine;
+    background-color: hsl(189, 41%, 97%);
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    text-align: center;
+}
+
+.title_content {
+    margin-top: 30px;
+}
+
+.amount_people {
+    width: 200px;
+    height: 45px;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(172, 67%, 45%);
+    font-size: 15px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: 'Space Mono', monospace;
+    padding-left: 15px;
+    text-align: end;
+    margin-top: 10px;
 }
 
 
-
-
-
-.amount {
+.amount_container {
     width: 50%;
     height: 100%;
     background-color: hsl(183, 100%, 15%);
     border-radius: 15px;
+}
+
+.amount_content {
+    padding: 25px;
+}
+
+.type_value_amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price_value {
+    color: hsl(172, 67%, 45%);
+}
+
+.type_total {
+    margin-top: 30px;
+}
+
+.paragraph_content {
+    color: hsl(189, 41%, 97%);
+}
+
+.paragraph_person {
+    color: hsl(186, 14%, 43%);
+}
+
+.button_content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button_value {
+    width: 300px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
 }
 

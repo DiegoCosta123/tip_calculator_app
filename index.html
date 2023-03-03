@@ -17,7 +17,6 @@
     <body>
         <main id="project_main">
             <div id="squared_main">
-
                 <div class="coin_field_main">
 
                     <div class="calculator_value">
@@ -25,36 +24,61 @@
                         <p>Bora Bill</p>
                         <input type="text" name="currency_field" id="currency_field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="cu  rrency" placeholder="$1,000,000.00">
 
-                        <div>
+                        <div class="type_percentage">
                             <p>Select Tip %</p>
 
-                            <div>
-
-                                <div class="percentage_main">
-                                    <button class="percentage_value">5%</button>
-                                    <button class="percentage_value">10%</button>
-                                    <button class="percentage_value">15%</button>
-                                </div>
-
-                                <div class="percentage_main">
-                                    <button class="percentage_value">25%</button>
-                                    <button class="percentage_value">50%</button>
-                                    <input class="percentage_type" type="number"/>
-                                </div>
-
+                            <div class="percentage_main">
+                                <button class="percentage_value">5%</button>
+                                <button class="percentage_value">10%</button>
+                                <button class="percentage_value">15%</button>
                             </div>
+
+                            <div class="percentage_main">
+                                <button class="percentage_value">25%</button>
+                                <button class="percentage_value">50%</button>
+                                <input class="percentage_type" type="number" placeholder="Custom"/>
+                            </div>
+
+                            <p class="title_content">Number of People</p>
+
+                            <input class="amount_people" type="text" placeholder="Icone">
 
                         </div>
                     </div>
 
-                    <div class="amount">
-                        <div>
-                            <p>Ola Mundo</p>
+                    <div class="amount_container">
+                        
+                        <div class="amount_content">
+                            <div class="type_value_amount">
+                                <div>
+                                    <p class="paragraph_content">Tip Amount</p>
+                                    <p class="paragraph_person">/ person</p>
+                                </div>
+
+                                <div>
+                                    <h1 class="price_value">$0.00</h1>
+                                </div>
+                            </div>
+
+                            <div class="type_value_amount type_total">
+                                <div>
+                                    <p class="paragraph_content">Total</p>
+                                    <p class="paragraph_person">/ person</p>
+                                </div>
+
+                                <div>
+                                    <h1 class="price_value">$0.00</h1>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="button_content">
+                            <button class="button_value">Reset</button>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
         </main>
     </body>
