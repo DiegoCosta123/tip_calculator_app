@@ -74,6 +74,12 @@
     font-family: 'Space Mono', monospace;
     font-size: 15px;
     margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.percentage_value:hover {
+    background-color: hsl(185, 38%, 55%);
 }
 
 .percentage_type {
@@ -155,5 +161,12 @@
     color: hsl(183, 100%, 15%);
     font-family: 'Space Mono', monospace;
     font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_value:hover {
+    background-color: hsl(185, 38%, 55%);
+
 }
 
